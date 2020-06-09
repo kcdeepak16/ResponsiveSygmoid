@@ -36,7 +36,7 @@ $bgcolour2 :  #f3f6f7;
 $mango : #ffaa34;
 $font-color :  #333333;
 .container{
-    max-width: 1280px;
+    max-width: 1336px;
 }
 .segment1{
     background:
@@ -295,6 +295,7 @@ $font-color :  #333333;
 
 .sixth-sec{
     padding-top: 9rem;
+    padding-bottom: 3rem;
     .adopt{
         font-size: 5rem;
         font-family: ProximaExtraBold; 
@@ -340,7 +341,36 @@ $font-color :  #333333;
 }
 
 .seventh-sec{
-    background-color: grey;
+    background-image: url("./lappy.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .sometext{
+        font-size: 5rem;
+        font-family: ProximaExtraBold;
+        color: white;
+        padding: 13rem 8rem;
+    }
+    .cards-5{
+        margin: 5rem auto ;
+        width: 53.2rem;
+        height: 13rem;
+        background-color: rgba(0, 0, 0, 0.27);
+    }
+    .txt11{
+        font-size: 2rem;
+        font-family: ProximaBold;
+        color: white;
+        padding: 2rem 2.5rem 0;
+    }
+    .txt22{
+        max-width: 50rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        font-family: ProximaRegular;
+        padding: 0rem 2.5rem;
+        color: white;
+    }
 }
 
 

@@ -2,6 +2,10 @@
   html {
     font-size: 45% !important;
   }
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .sec-section ul li {
     display: block;
     margin-left: auto !important;
