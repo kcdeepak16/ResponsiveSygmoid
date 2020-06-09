@@ -1,0 +1,48 @@
+@media only screen and (min-width: 420px) {
+  html {
+    font-size: 35% !important;
+  }
+  .container {
+    padding: 0 !important;
+  }
+  .options a {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+}
+
+@media only screen and (min-width: 200px) {
+  html {
+    font-size: 45% !important;
+  }
+  .container {
+    padding: 0 !important;
+  }
+  .navbar-brand {
+    padding-top: 0 !important;
+    margin-top: 0.8rem !important;
+  }
+  .options a {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  html {
+    font-size: 45% !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  html {
+    font-size: 62.5% !important;
+  }
+}
+
+@media only screen and (min-width: 1800) {
+  html {
+    font-size: 115% !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */

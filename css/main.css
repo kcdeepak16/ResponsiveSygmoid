@@ -1,0 +1,270 @@
+@media only screen and (min-width: 420px) {
+  html {
+    font-size: 35%;
+  }
+  .container {
+    padding: 0 !important;
+  }
+  .options a {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+}
+
+@media only screen and (min-width: 200px) {
+  html {
+    font-size: 45%;
+  }
+  .container {
+    padding: 0 !important;
+  }
+  .navbar-brand {
+    padding-top: 0 !important;
+    margin-top: 0.8rem !important;
+  }
+  .options a {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (min-width: 1800) {
+  html {
+    font-size: 115%;
+  }
+}
+
+@font-face {
+  font-family: ProximaBold;
+  src: url(./proximanova/Bold.otf);
+}
+
+@font-face {
+  font-family: ProximaExtraBold;
+  src: url(./proximanova/Extrabold.otf);
+}
+
+@font-face {
+  font-family: ProximaRegular;
+  src: url(./proximanova/Regular.ttf);
+}
+
+@font-face {
+  font-family: ProximaSemiBold;
+  src: url(./proximanova/Semibold.otf);
+}
+
+.container {
+  max-width: 1336px;
+}
+
+.segment1 {
+  background: linear-gradient(90deg, #f3f6f7 80px, transparent 1%) center, linear-gradient(#f3f6f7 80px, transparent 1%) center, #ced7dd;
+  background-size: 85px 85px;
+}
+
+.segment1 .navbar-brand {
+  padding-top: 3rem !important;
+  height: auto !important;
+  max-width: 100% !important;
+  border: none;
+  display: block;
+}
+
+.segment1 .sygmoid-nav {
+  font-family: ProximaSemiBold !important;
+  font-size: 1.3rem;
+  color: #333333 !important;
+  padding: 4px;
+  margin-top: 4.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.segment1 .sygmoid-nav:hover {
+  color: #ffaa34 !important;
+  border-bottom: 2px solid !important;
+}
+
+.segment1 .sygmoid-nav-btn {
+  font-family: ProximaSemiBold;
+  background-color: #ffaa34;
+  color: white !important;
+  height: 4rem;
+  width: 10.3rem;
+  font-size: 1.4rem;
+  padding-top: 1rem;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  border-radius: 20px;
+  margin-top: 3.5rem;
+}
+
+.segment2 {
+  background: linear-gradient(90deg, #f3f6f7 80px, transparent 1%) center, linear-gradient(#f3f6f7 80px, transparent 1%) center, #ced7dd;
+  background-size: 85px 85px;
+}
+
+.segment2 .hero-section h1 {
+  font-size: 3rem;
+  font-family: ProximaExtraBold;
+  color: #ffaa34;
+  font-size: 6rem;
+}
+
+.segment2 .hero-section h3 {
+  font-size: 3.6rem;
+  font-family: ProximaSemiBold;
+}
+
+.segment2 .hero-section p {
+  font-size: 1.4rem;
+  font-family: ProximaRegular;
+  max-width: 40rem;
+}
+
+.segment2 .hero-section {
+  padding-top: 12rem;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  padding-bottom: 12rem;
+}
+
+.accelerate {
+  padding: 0;
+  font-size: 5rem;
+  font-family: ProximaExtraBold !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4.6rem;
+}
+
+.sec-section {
+  font-family: "ProximaRegular";
+  font-size: 1.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #333333;
+}
+
+.sec-section ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sec-section ul li {
+  display: inline-block;
+  padding: 1rem 7rem;
+}
+
+.sec-section ul li:hover {
+  color: #ffaa34;
+}
+
+.third-section {
+  width: 90%;
+  height: auto;
+  margin: auto auto;
+  background-color: #f8f9f9;
+}
+
+.third-section ul {
+  padding: 0;
+}
+
+.third-section .cards-1 {
+  list-style: none;
+  font-family: "ProximaSemiBold";
+  font-size: 1.4rem;
+  padding: 2.8rem 4.7rem 2.8rem 1.4rem;
+  width: 40rem;
+  height: 10rem;
+  color: #333333;
+  border: 1px solid #e0e7ea;
+  background-color: white;
+}
+
+.third-section .cards-1:hover {
+  font-family: "ProximaBold";
+  color: #0a6cf4;
+  -webkit-box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.08);
+  border: 0;
+}
+
+.third-section .image-container {
+  width: 95%;
+  height: 34.1rem;
+  background-color: white;
+  margin: 5rem 1rem 4.7rem 1rem;
+  -webkit-box-shadow: 10px 17px 24px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 10px 17px 24px 0px rgba(0, 0, 0, 0.08);
+}
+
+.transform {
+  font-family: "ProximaBold";
+  font-size: 5rem;
+  position: relative;
+  margin: 9rem auto 3rem 6rem;
+}
+
+.forth-section ul li {
+  display: inline-block;
+  font-family: "ProximaRegular";
+  font-size: 1.4rem;
+  color: #666666;
+  padding-top: 2.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.forth-section ul li:hover {
+  color: #0a6cf4;
+  font-family: "ProximaBold";
+  border-bottom: 2px solid #0a6cf4;
+}
+
+.forth-section .cards-2 {
+  list-style: none;
+  width: 70%;
+  height: 60px;
+  padding: 0;
+  background-color: white;
+  -webkit-box-shadow: 0px 11px 14px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 11px 14px 0px rgba(0, 0, 0, 0.08);
+  margin: auto auto auto 6rem;
+}
+
+.forth-section .txt1 {
+  font-family: "ProximaRegular";
+  font-size: 1.6rem;
+  color: #333333;
+  max-width: 50rem;
+  height: 5rem;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.forth-section .txt2 {
+  display: block;
+  font-size: 1.6rem;
+  color: #333333;
+  font-family: "ProximaRegular";
+  margin-left: 7rem;
+  line-height: 3.4rem;
+}
+/*# sourceMappingURL=main.css.map */
