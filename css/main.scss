@@ -1,6 +1,4 @@
 // @import '../node_modules/rfs/scss.scss';
-@import './media.scss';
-
 
 @font-face {
     font-family: ProximaBold;
@@ -37,9 +35,8 @@ $bgcolour2 :  #f3f6f7;
 
 $mango : #ffaa34;
 $font-color :  #333333;
-
 .container{
-    max-width: 1336px;
+    max-width: 1280px;
 }
 .segment1{
     background:
@@ -55,6 +52,7 @@ $font-color :  #333333;
         display:block;
     }
     .sygmoid-nav{
+        letter-spacing: 0;
         font-family: ProximaSemiBold !important;
         font-size: 1.3rem;
         color: $font-color !important;
@@ -68,7 +66,7 @@ $font-color :  #333333;
         }
     }
     .sygmoid-nav-btn{
-        font-family: ProximaSemiBold;
+        font-family: ProximaSemiBold !important;
         background-color: $mango;
         color: white !important;
         height:4rem;
@@ -91,17 +89,17 @@ $font-color :  #333333;
     background-size: $dot-space $dot-space; 
     .hero-section h1{
         font-size: 3rem;
-        font-family: ProximaExtraBold;
+        font-family: ProximaExtraBold !important;
         color: $mango;
         font-size: 6rem;
     }
     .hero-section h3{
         font-size: 3.6rem;
-        font-family: ProximaSemiBold;
+        font-family: ProximaSemiBold !important;
     }
     .hero-section p{
         font-size: 1.4rem;
-        font-family: ProximaRegular;
+        font-family: ProximaRegular !important;
         max-width: 40rem;
     }
     .hero-section{
@@ -117,13 +115,14 @@ $font-color :  #333333;
     font-size: 5rem;
     font-family: ProximaExtraBold !important;
     text-align: center;
+    letter-spacing: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4.6rem;
 }
 
 .sec-section{
-    font-family: $PNRegular;
+    font-family: ProximaRegular;
     font-size: 1.8rem;
     margin-left: auto;
     margin-right: auto;
@@ -135,7 +134,7 @@ $font-color :  #333333;
     }
     ul li{
         display: inline-block;
-        padding: 1rem 7rem ;
+        padding: 1rem 4rem ;
         &:hover{
             color: $mango;
         }
@@ -185,13 +184,14 @@ $font-color :  #333333;
 }
 
 .forth-section{
+    padding-bottom: 12rem;
     ul li{
-        display: inline-block;
+        display: inline;
         font-family: $PNRegular;
         font-size: 1.4rem;
-        color:  #666666;
-        padding-top: 2.4rem;
+        margin: 0 2rem 0 2rem;
         padding-bottom: 1.4rem;
+        color:  #666666;
         &:hover{
             color: #0a6cf4;
             font-family: $PNBold;
@@ -200,12 +200,12 @@ $font-color :  #333333;
     }
     .cards-2{
         list-style: none;
-        width: 70%;
-        height: 60px;
-        padding: 0;
+        width: 85%;
+        height: 5.8rem;  
+        padding-top: 2.4rem; 
+        margin-left: 5.8rem;
         background-color: white;
         box-shadow: 0px 11px 14px 0px rgba(0, 0, 0, 0.08);
-        margin: auto auto auto 6rem;
     }
     .txt1{
         font-family: $PNRegular;
@@ -224,6 +224,129 @@ $font-color :  #333333;
         font-family: $PNRegular;
         margin-left: 7rem;
         line-height: 3.4rem;
+    .whole1{
+        margin-bottom: 2rem;
+    }
 
     }
+    .image-container2{
+        height: 35rem;
+        width: 85%;
+        margin: 0 auto 0 4rem;
+        background-color: white;
+        box-shadow: 0px 11px 14px 0px rgba(0, 0, 0, 0.08);
+    }
 }
+
+.fifth-sec{
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    background-color: #f8f9f9;
+    .head{
+        margin-top: 6rem;
+        margin-bottom: 1.3rem;
+        font-size: 5rem;
+        font-family: ProximaExtraBold;
+        text-align: center;
+        max-width: 89rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 1.4rem;
+    }
+    ul{
+        display: inline;
+        padding: 0 1rem 0 1rem;
+    }
+    ul li{
+        display: inline-block;
+        text-align: center;
+        font-family: $PNRegular;
+        font-size: 1.4rem;
+        padding: 0 1rem 1.2rem;
+        color:  #666666;
+        &:hover{
+            color: #0a6cf4;
+            font-family: $PNBold;
+            border-bottom: 2px solid #0a6cf4;
+        }
+    }
+    .cards-3{
+        display: inline;
+        list-style: none;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2.4rem; 
+        padding-bottom: 1.4rem;
+        background-color: white;
+        box-shadow: 0px 11px 14px 0px rgba(0, 0, 0, 0.08);
+    }
+    .image-container3{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 57.7rem;
+        margin-top: 5.5rem;
+        background-color: white;
+        box-shadow: 0px 11px 14px 0px rgba(0, 0, 0, 0.08);
+    }
+}
+
+.sixth-sec{
+    padding-top: 9rem;
+    .adopt{
+        font-size: 5rem;
+        font-family: ProximaExtraBold; 
+        margin-left: 7.8rem;
+    }
+     ul li{
+        margin-left: 7rem;
+        margin-right: auto;
+        padding: 0 2rem;
+        list-style: none;
+        font-size: 1.4rem;
+        font-family: ProximaSemiBold;
+        line-height: 6rem;
+        color: #333333;
+        &:hover{
+            width: 30rem;
+            height: auto;
+            padding: 0 2rem;
+            background-color: #edf2ff;
+            color: #0a6cf4;
+            border-radius: 25px;
+         }
+      }
+    .part2{
+       display: block;
+       margin-top: 4rem;
+       font-size: 1.6rem;
+       font-family: ProximaRegular;
+       color: #333333;
+       margin: auto;
+       padding: 1rem 5rem;
+       line-height: 35px;
+       
+    }
+    .image-container4{
+        width: 31rem;
+        height: 18rem;
+        align-items: center;
+        margin: 13rem 0;
+        background-color: white;   
+        box-shadow: 0px 11px 14px 0px rgba(0, 0, 0, 0.08);   
+    }
+}
+
+.seventh-sec{
+    background-color: grey;
+}
+
+
+
+
+
+
+
+
